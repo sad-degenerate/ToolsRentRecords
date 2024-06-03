@@ -38,6 +38,14 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Model\Client.cs" />
+        <Compile Include="Model\Contract.cs" />
+        <Compile Include="Model\IBaseItem.cs" />
+        <Compile Include="Model\IPassport.cs" />
+        <Compile Include="Model\RussianPassport.cs" />
+        <Compile Include="Model\Table.cs" />
+        <Compile Include="Model\TableEntity.cs" />
+        <Compile Include="Model\Tool.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
